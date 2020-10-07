@@ -4,8 +4,7 @@ import Navigation from './Navigation'
 const Login = (props) =>{
     return (
         <div>
-        <Navigation {...props}/>
-            Login component
+            로그인!!
         </div>
     )
 }

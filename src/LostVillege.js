@@ -7,8 +7,7 @@ const LostVillege = (props) =>{
 
     return (
         <div>
-        <Navigation {...props}/>
-            LostVillege component
+            로스트 빌리지!!
         </div>
     )
 }

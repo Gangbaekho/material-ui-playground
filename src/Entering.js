@@ -5,8 +5,7 @@ const Entering = (props) =>{
 
     return(
         <div>
-        <Navigation {...props}/>
-            Entering component
+            입국 심사!!
         </div>
     )
 }

@@ -56,7 +56,6 @@ const Navigation = (props) =>{
                     </Grid>
                 </Toolbar>
             </AppBar>
-            {path}
         </div>
     )
 }
