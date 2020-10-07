@@ -24,8 +24,8 @@ const Navigation = (props) =>{
             name:'입국 심사'
         },
         {
-            path:'login',
-            name:'로그인'
+            path:'swiper',
+            name:'스와이퍼'
         },
         {
             path:'animation',
