@@ -46,12 +46,12 @@ const Entering = (props) =>{
     <CardActions>
       <Grid container justify="space-evenly">
           <Grid item>
-              <Button size="small" color="primary">
+              <Button size="small" color="primary" onClick={()=>{alert('Oh.. do you like study?')}}>
                   study
               </Button>
           </Grid>
           <Grid item>
-              <Button size="small" color="primary">
+              <Button size="small" color="primary" onClick={()=>{alert('No, you can not go back home until you finish the work.')}}>
                   home
               </Button>
           </Grid>

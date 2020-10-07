@@ -28,8 +28,8 @@ const Navigation = (props) =>{
             name:'로그인'
         },
         {
-            path:'test',
-            name:'테스트'
+            path:'animation',
+            name:'애니메이션'
         }
     ]
     const {history,match} = props

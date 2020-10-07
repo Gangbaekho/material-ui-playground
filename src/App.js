@@ -5,13 +5,14 @@ import LostVillege from './LostVillege'
 import Entering from './Entering'
 import Login from './Login'
 import Test from './Test'
+import Animation from './Animation'
 
 const App = (props) => { 
 
   return (
     <Switch>
       <Route exact path="/" render={props => <Home {...props}/>}/>
-      <Route exact path="/:path" render={props=> <Test {...props}/>}/>
+      <Route exact path="/:path" render={props => <Test {...props}/>}/>
     </Switch>
   )
 };

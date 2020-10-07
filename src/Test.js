@@ -3,6 +3,7 @@ import Navigation from './Navigation'
 import LostVillege from './LostVillege'
 import Entering from './Entering'
 import Login from './Login'
+import Animation from './Animation'
 
 const Test = (props) =>{
 
@@ -21,11 +22,9 @@ const Test = (props) =>{
                 return (
                     <Login/>
                 )
-            case 'test':
+            case 'animation':
                 return (
-                    <div>
-                        테스트!!
-                    </div>
+                    <Animation/>
                 )
         }
     }
