@@ -1,14 +1,14 @@
 import React from 'react'
 import Navigation from './Navigation'
 
-const Home = (props) =>{
+const Entering = (props) =>{
 
     return(
         <div>
-            <Navigation {...props}/>
-            home component
+        <Navigation {...props}/>
+            Entering component
         </div>
     )
 }
 
-export default Home
+export default Entering

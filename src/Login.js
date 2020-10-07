@@ -1,14 +1,13 @@
 import React from 'react'
 import Navigation from './Navigation'
 
-const Test = (props) =>{
-
+const Login = (props) =>{
     return (
         <div>
-            <Navigation {...props}/>
-            Test component
+        <Navigation {...props}/>
+            Login component
         </div>
     )
 }
 
-export default Test
+export default Login
