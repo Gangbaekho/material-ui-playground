@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import Navigation from './Navigation'
 
 const Test = (props) =>{
@@ -6,7 +6,6 @@ const Test = (props) =>{
     return (
         <div>
             <Navigation {...props}/>
-            Test component
         </div>
     )
 }
