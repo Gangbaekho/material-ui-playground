@@ -20,8 +20,8 @@ const Navigation = (props) =>{
             name:'로스트 빌리지'
         },
         {
-            path:'entering',
-            name:'입국 심사'
+            path:'simpleanimation',
+            name:'심플 애니메이션'
         },
         {
             path:'swiper',

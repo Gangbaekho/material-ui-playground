@@ -5,6 +5,7 @@ import Entering from './Entering'
 import Login from './Login'
 import Animation from './Animation'
 import Swiper from './Swiper'
+import SimpleAnimation from './SimpleAnimation'
 
 const Test = (props) =>{
 
@@ -15,9 +16,9 @@ const Test = (props) =>{
                 return (
                     <LostVillege/>
                 )
-            case 'entering':
+            case 'simpleanimation':
                 return (
-                    <Entering/>
+                    <SimpleAnimation/>
                 )
             case 'swiper':
                 return (
